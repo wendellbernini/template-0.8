@@ -23,6 +23,7 @@ module.exports = {
         use: {
           loader: 'babel-loader',
           options: {
+            cacheDirectory: true,
             targets: 'defaults',
             presets: [['@babel/preset-env']],
           },
